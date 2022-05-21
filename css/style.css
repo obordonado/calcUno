@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor{
+  margin-top: 15vh;
+  display: grid;
+  width: 17.5em;
+}
+#screen{
+  width: 100%;
+  font-size: 3em;
+  border-style: none;
+  background-color: #ddd;
+}
+.btn{
+  width: 5em;
+  height: 5em;
+  border-radius: .5em;
+  border-style: none;
+  
+}
+.btn:active{
+  background-color: #333;
+  transition: ease-in-out;
+  transition: .3s;
+}
+.equal{
+  width: 15.5em;
+  height: 5em;
+  background-color: rgb(40, 193, 40);
+  border-style: none;
+  border-radius: .5em;
+}
+.equal:active{
+  background-color: #333;
+  transition: ease-in-out;
+  transition: .3s;
+}
+.erase{
+  width: 5em;
+  height: 5em;
+  background-color: #f55;  border-style: none;
+  border-style: none;
+  border-radius: .5em;
+}
+.erase:active{
+  background-color: #333;
+  transition: ease-in-out;
+  transition: .3s;
+  border-style: none;
+}
