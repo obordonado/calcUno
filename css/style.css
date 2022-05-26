@@ -1,58 +1,35 @@
-*{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+
+.container {
+  max-width: 25em;
+  margin: 20vh auto 0 auto;
 }
-body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+#display {
+  margin-left: .3em;
+  height: 1em;
+  text-align: right;  
+  font-size: 2.5em;
+  background-color: beige;
 }
-.contenedor{
-  margin-top: 15vh;
+
+.botones {
   display: grid;
-  width: 17.5em;
+  grid-template-columns: repeat(4,1fr);
 }
-#screen{
-  width: 100%;
-  font-size: 3em;
-  border-style: none;
-  background-color: #ddd;
+.boton {
+  line-height: 2em;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
 }
-.btn{
-  width: 5em;
-  height: 5em;
-  border-radius: .5em;
-  border-style: none;
-  
+
+#equal {
+  background-color: #065;
+  color: white;
 }
-.btn:active{
-  background-color: #333;
-  transition: ease-in-out;
-  transition: .3s;
-}
-.equal{
-  width: 15.5em;
-  height: 5em;
-  background-color: rgb(40, 193, 40);
-  border-style: none;
-  border-radius: .5em;
-}
-.equal:active{
-  background-color: #333;
-  transition: ease-in-out;
-  transition: .3s;
-}
-.erase{
-  width: 5em;
-  height: 5em;
-  background-color: #f55;  border-style: none;
-  border-style: none;
-  border-radius: .5em;
-}
-.erase:active{
-  background-color: #333;
-  transition: ease-in-out;
-  transition: .3s;
-  border-style: none;
+
+.boton:hover {
+  background-color: #aaa;
+  color: white;
+  transition: 0.2s ease-in-out;
 }
