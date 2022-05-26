@@ -1,15 +1,4 @@
 
-// const txt1 = document.getElementsByClassName("number");
-// const out1 = document.getElementById("output1");
-// function fun1(){
-//     out1.innerHTML = txt1.value;
-// }
-// txt1.addEventListener("click",fun1);
-
-
-
-
-
 let display = document.getElementById('display');
 
 let botones = Array.from(document.getElementsByClassName('boton'));//genero array sin push pasando por toda la class boton.
