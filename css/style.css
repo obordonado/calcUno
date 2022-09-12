@@ -2,19 +2,19 @@
 .container {
   max-width: 25em;
   margin: 20vh auto 0 auto;
-}
+  box-shadow:rgba(0, 0, 0, 0.25) 0px 0px 32px 25px;}
 
 #display {
-  margin-left: .3em;
   height: 1em;
   text-align: right;  
-  font-size: 2.5em;
-  background-color: beige;
+  font-size: 2em;
+  padding-bottom: 0.2em;
+  background-color: rgb(155, 197, 153);
 }
-
 .botones {
   display: grid;
   grid-template-columns: repeat(4,1fr);
+  background-color: rgb(236, 160, 160);
 }
 .boton {
   line-height: 2em;
@@ -22,13 +22,23 @@
   font-size: 1.5em;
   cursor: pointer;
 }
-
 #equal {
   background-color: #065;
   color: white;
 }
-
 .boton:hover {
+  background-color: #aaa;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+.boton-cero {
+  line-height: 2em;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  width: 4em;
+}
+.boton-cero:hover{
   background-color: #aaa;
   color: white;
   transition: 0.2s ease-in-out;
